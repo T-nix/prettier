@@ -8,7 +8,7 @@ export default {
   "arrowParens": "always",
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,
-  "importOrderCaseInsensetive": true,
+  "importOrderCaseInsensitive": true,
   "importOrderParserPlugins": [
     "classProperties",
     "decorators-legacy",
