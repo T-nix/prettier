@@ -1,6 +1,6 @@
 {
   "name": "@t-nix/prettier",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Core utils and shared setup",
   "license": "ISC",
   "author": {
