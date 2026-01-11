@@ -1,0 +1,28 @@
+{
+  "name": "@t-nix/prettier",
+  "version": "1.0.0",
+  "description": "Core utils and shared setup",
+  "license": "ISC",
+  "author": {
+    "name": "Michael Talimonchuk",
+    "email": "mykhaylotal@gmail.com"
+  },
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-nix/prettier.git"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^6.0.0"
+  },
+  "exports": {
+    "prettier": "./src/prettier.conf.mjs"
+  }
+}
