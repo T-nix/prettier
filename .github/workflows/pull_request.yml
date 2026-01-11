@@ -1,4 +1,4 @@
-name: Publish Package
+name: Pull Request
 
 on:
   pull_request:
@@ -42,7 +42,7 @@ jobs:
 
       - run: npm ci
 
-            - name: Commit version bump
+      - name: Commit version bump
         run: |
           VERSION=$(node -p "require('./package.json').version")
           git config user.name "github-actions"
