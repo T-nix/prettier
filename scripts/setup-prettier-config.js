@@ -12,7 +12,8 @@ const packageRoot = join(__dirname, "..");
 
 const templatePath = join(packageRoot, "prettier.config.mjs");
 const targetPath = join(projectRoot, "prettier.config.mjs");
-console.log("Running your-package postinstall...");
+console.log("Running your-package postinstall...", templatePath, targetPath);
+
 const configFiles = [
   ".prettierrc",
   ".prettierrc.json",
