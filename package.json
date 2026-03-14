@@ -25,6 +25,6 @@
     "./prettier": "./src/prettier.config.mjs"
   },
   "scripts": {
-    "postinstall": "node ./scripts/setup-prettier-config.js"
+    "postinstall": "node scripts/setup-prettier-config.js"
   }
 }
