@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // root of project that installed the package
-const projectRoot = process.cwd();
+const projectRoot = process.env.INIT_CWD || process.cwd();
 
 // root of your package
 const packageRoot = join(__dirname, "..");
